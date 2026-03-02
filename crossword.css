@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 6
+   Coding Challenge 2
+   
+   Author: Brenton Oliver   
+   Date:   02/28/2026  
+   Filename: code6-2_table.css
+
+*//* Style for the table */
+table {
+    margin: 20px;           /* Adds space around the table */
+    border-collapse: collapse; /* Makes borders merge neatly */
+}
+
+/* Style for the table header */
+th {
+    color: white;           /* White text */
+    background-color: red;  /* Red background */
+    font-size: 1.5em;       /* Bigger font size */
+    border: 1px solid gray; /* Gray border around header */
+    text-align: center;     /* Center text in header */
+    padding: 10px;          /* Space inside header cell */
+}
+
+/* Style for all table cells */
+td {
+    width: 50px;            /* Set cell width */
+    height: 50px;           /* Set cell height */
+    font-size: 0.7em;       /* Smaller font for numbers */
+    border: 1px solid gray; /* Gray border for cells */
+    vertical-align: top;    /* Align numbers to top */
+    text-align: left;       /* Align numbers left */
+    padding: 5px;           /* Space inside cell */
+}
+
+/* Style for blank cells */
+td.blank {
+    background: linear-gradient(to bottom right, red, gray); /* Red-to-gray gradient */
+}
